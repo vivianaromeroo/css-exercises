@@ -1,3 +1,11 @@
+/* 
+- Div One and Div Three have 32px between their text and border.
+- Div One has 12px between it and any other element on the page.
+- There is a 48px gap between Div Two and Div Three.
+- Div Three is aligned to the right.
+- Div Three's alignment is achieved using `margin` (and not float, flexbox, etc.). 
+*/
+
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -7,15 +15,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -23,6 +31,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  margin-left: auto;
 }
